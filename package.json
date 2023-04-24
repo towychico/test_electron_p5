@@ -1,0 +1,27 @@
+{
+  "name": "p5-electron-quick-start",
+  "version": "1.0.0",
+  "description": "A quick start for building P5 sketches in Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha ./js/**/*.test.js"
+  },
+  "repository": "https://github.com/camerenisonfire/p5-electron-quick-start",
+  "keywords": [
+    "P5",
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Cameren Dolecheck",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "electron": "^9.4.0",
+    "electron-reload": "^1.5.0",
+    "mocha": "^6.2.0",
+    "p5": "^0.9.0"
+  }
+}
