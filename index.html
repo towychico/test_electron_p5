@@ -3,12 +3,15 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
   <!-- You can also require other files to run in this process -->
   <script src="./js/src/sketch.js" type="text/javascript" charset="utf-8"></script>
   <style>
     body {
       margin: 0;
       padding: 0;
+      display: flex;
+      flex-direction: row-reverse;
       -webkit-app-region: drag;
       -webkit-user-select: none;
     }
@@ -17,10 +20,31 @@
       display: block;
     }
   </style>
-  <title>P5 Electron Quick Start</title>
+  <title>F1013B Diagnóstico de malaria</title>
 </head>
 
 <body>
+<div class="side_bar">
+<div class="title_container">
+<h1>F1013B</h1>
+  <h2>Diagnóstico de malaria</h2>
+</div>
+<div class="main_side_bar_container">
+
+  <div class="form__group">
+    <input type="text" class="form__input" id="name" placeholder="Data" required="" />
+    <label for="name" class="form__label">Data</label>
+  </div>
+
+  <button class="button">
+    <span class="button-text">Simulate</span>
+    <div class="fill-container"></div>
+  </button>
+</div>
+  <div class="logo_container">
+
+  </div>
+</div>
 </body>
 
 </html>
